@@ -1,0 +1,55 @@
+body
+{
+    background:grey;
+}
+.restaurant-card 
+{
+  width: 350px;
+  border: 0px;
+  border-radius:5px;
+  height: 150px;
+  padding: 60px 30px;
+  text-align:center;
+  color:white;
+}
+
+.restaurant-card h4:hover
+{
+  cursor: pointer
+}
+
+.lightblue 
+{
+  background: linear-gradient(to left, #282828 -1%, DodgerBlue 70%);
+}
+.lightgreen
+{
+  background: linear-gradient(to left, #282828 -1%, MediumSeaGreen  70%);
+}
+.lightpink
+{
+  background: linear-gradient(to left, #282828 -1%, violet   70%);
+}
+
+.lightorange
+{
+  background: linear-gradient(to left, #282828 -1%, #f5993d   70%);
+}
+ 
+.teal
+{
+  background: linear-gradient(to left, #282828 -1%, Teal   70%);
+}
+.restaurants-zone
+{
+  display: inline-block;
+}
+.borderless td, .borderless th {
+    border: none;
+}
+
+a:hover
+{
+  cursor: pointer;
+  text-decoration: none;
+}
